@@ -69,34 +69,37 @@
         </div>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <button class="backdrop-button" data-modal-close></button>
-
+            <div class="button-block">
+              <button class="backdrop-button" data-modal-close>
+                <svg class="button_close">
+                  <use href="./images/symbol-defs.svg#close"></use>
+                </svg>
+              </button>
+            </div>
             <form class="modal__form">
               <h2 class="modal__form--title">
                 Оставьте свои данные, мы вам перезвоним
               </h2>
               <div class="modal__form--field">
-                <svg class="modal__form--icon">
-                  <use href="./images/backdrop-sprite.svg#icon-person"></use>
-                </svg>
                 <label for="name" class="modal__form--lable">Имя</label>
                 <input type="text" name="name" class="modal__form--contact" />
+                <svg class="modal__form--icon">
+                  <use href="./images/symbol-defs.svg#icon-person"></use>
+                </svg>
               </div>
               <div class="modal__form--field">
-                <svg class="modal__form--icon modal-phone">
-                  <use
-                    href="./images/backdrop-sprite.svg#icon-phone-black"
-                  ></use>
-                </svg>
                 <label for="tel" class="modal__form--lable">Телефон</label>
                 <input type="tel" name="tel" class="modal__form--contact" />
+                <svg class="modal__form--icon modal-phone">
+                  <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+                </svg>
               </div>
               <div class="modal__form--field">
-                <svg class="modal__form--icon modal-email">
-                  <use href="./images/backdrop-sprite.svg#icon-email"></use>
-                </svg>
                 <label for="mail" class="modal__form--lable">Почта</label>
                 <input type="email" name="mail" class="modal__form--contact" />
+                <svg class="modal__form--icon modal-email">
+                  <use href="./images/symbol-defs.svg#icon-email"></use>
+                </svg>
               </div>
               <div class="modal__form--field">
                 <label for="textarea" class="modal__form--lable texterea-lable"
